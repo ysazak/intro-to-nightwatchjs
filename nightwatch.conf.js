@@ -21,7 +21,7 @@ module.exports = {
             'desiredCapabilities': {
                 'browserName': 'chrome',
                 'chromeOptions': {
-                    'args': []
+                    'args': ['--headless']
                 }
             }
         }
